@@ -1,0 +1,11 @@
+{
+  "name": "base122-loader",
+  "version": "1.0.0",
+  "description": "base 122 loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "mapacarta",
+  "license": "ISC"
+}
