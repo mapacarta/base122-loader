@@ -25,7 +25,7 @@ function loader(src) {
   // Loader Options  
 
   const file = this.resourcePath;
-  const mimetype = _mime2.default.getType(file);
+  const mimetype = _mime2.default.lookup ? _mime2.default.lookup(file) : _mime2.default.getType(file);
   
   if (typeof src === 'string') {
     src = Buffer.from(src);
